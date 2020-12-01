@@ -1,0 +1,95 @@
+/* Content of the page  */
+body {
+  background: linear-gradient(to right, rgb(5, 30, 56), rgb(205, 205, 206));
+  color: black;
+}
+input {
+  padding: 10px;
+  width: 18pc;
+  text-size-adjust: initial;
+  font-size: 1pc;
+}
+label {
+  font-size: 2pc;
+  font-weight: bolder;
+}
+/* Inputs */
+.box {
+  background: linear-gradient(to right, rgb(156, 153, 148), white);
+  border-radius: 5pc;
+  padding: 10%;
+  margin-top: 6pc;
+}
+.save {
+  background: linear-gradient(to right, rgb(5, 30, 56), rgb(205, 205, 206));
+  padding: 15px 5%;
+  border-radius: 2pc;
+}
+.save:hover {
+  background: linear-gradient(to right, rgb(156, 153, 148), white);
+  cursor: pointer;
+}
+/* Tables */
+.td {
+  background: linear-gradient(to right, rgb(156, 153, 148), white);
+  width: 305pc;
+  color: black;
+  border-radius: 3pc;
+  font-size: 4pc;
+  font-weight: bolder;
+  margin: 1pc;
+}
+.UserName,
+.Message {
+  color: black;
+}
+table {
+  padding: 13px;
+  margin: 0;
+  text-align: center;
+  margin-left: 8pc;
+}
+.delete {
+  background: linear-gradient(to right, rgb(5, 30, 56), rgb(205, 205, 206));
+  padding: 15px 10%;
+  border-radius: 2pc;
+  width: 8pc;
+  float: left;
+}
+.delete:hover {
+  background: linear-gradient(to right, rgb(107, 105, 101), white);
+  cursor: pointer;
+}
+.td2 {
+  background-color: white;
+  width: 20pc;
+  color: black;
+  padding: 10px 13%;
+  border-radius: 5pc;
+  font-size: 4pc;
+  font-weight: bolder;
+}
+.td1 {
+  background-color: white;
+  width: 20pc;
+  color: black;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5pc;
+  font-size: 4pc;
+  font-weight: bolder;
+}
+.tr {
+  background-color: white;
+  width: 20pc;
+  color: black;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5pc;
+  font-size: 2pc;
+  font-weight: bolder;
+  float: right;
+}
+.hidden {
+  display: none;
+}
